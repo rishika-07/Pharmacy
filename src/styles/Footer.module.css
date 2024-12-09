@@ -1,0 +1,65 @@
+.footerMain{
+    background-color:#17414F;
+    width:100vw;
+    padding:60px 80px 20px 80px;
+    height:fit-content;
+    margin-bottom: 20px;
+}
+.footerGrid{
+    width:90vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:2rem;
+    
+}
+.NestedGrid{
+    background-color:#215D72 ;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    gap:1rem;
+    justify-content: center;
+    align-items: center;
+    padding:10px
+}
+.NestedGrid h3{ 
+    color:#ffffff;
+    font-weight: bold;
+}
+.NestedGrid p{
+    color:#ffffff;
+    font-weight: bold;
+    font-size: 0.7rem;
+}
+.footerLogoRow{
+ font-size:0.7rem;
+ /* font-weight: bold; */
+ color: #ffffff;
+}
+.fotterEnd{
+    display: flex;
+    flex-direction: row;
+    gap:0.2rem;
+    /* align-items: center;
+    justify-content: center; */
+}
+.fotterEnd p{
+    color: #ffffff;
+    font-size: 0.5rem;
+}
+@media (max-width: 768px){
+    .footerMain{
+        position: absolute;
+        top: 510%;
+    }
+    .footerGrid{
+        display: flex;
+        flex-direction: column;
+        padding:0;
+        margin: 0;
+    }
+    .NestedGrid{
+        gap:1rem;
+        padding:5px;
+    }
+}
